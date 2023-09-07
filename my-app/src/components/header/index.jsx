@@ -8,9 +8,8 @@ class Header extends React.Component {
     render() {
         return (
             <div className="container">
-              <div className="headerimg">
-                <img className="imglogo" src={imageHeader} alt="" />
-            </div>
+              <div className="headerdetails">
+                <div className="link">
                 <ul>
                     <li>
                         <NavLink exact activeClassName={'P-active-class'} to={routerNames.HOME}> Home</NavLink>
@@ -22,6 +21,8 @@ class Header extends React.Component {
                         <NavLink exact activeClassName={'P-active-class'}  to={routerNames.CONTACT}> Contact</NavLink>
                     </li>
                 </ul>
+                </div>
+                <div className="items">
                 <div className="square">
                     <div className="first"></div>
                     <div className="second"></div>
@@ -30,6 +31,8 @@ class Header extends React.Component {
                     <p>Simple House</p>
                     <span>new restaurant template</span>
                 </div>
+                </div>
+            </div>
             </div>
         )
     }

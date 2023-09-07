@@ -15,6 +15,7 @@
 .contact-text h3{
     text-align: center;
     font-size: 30px;
+    color: darkgray;
 }
 
 .contact-text p{
@@ -91,12 +92,12 @@
 }
 
 .phone img{
-    height:35px;
-    width: 35px;
+    height:20px;
+    width: 20px;
 }
 
 .phone p{
-    font-size: 25px;
+    font-size: 18px;
     color: gray;
 }
 
@@ -108,25 +109,25 @@
 }
 
 .mail img{
-    height:35px;
-    width: 35px;
+    height:20px;
+    width: 20px;
 }
 
 .mail p{
-    font-size: 25px;
+    font-size: 18px;
     color: gray;   
 }
 
 .logo{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     padding: 30px;
 }
 
 .logo img{
-    height: 60px;
-    width: 60px;
+    height: 35px;
+    width: 35px;
 }
 
 .map{

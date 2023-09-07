@@ -1,15 +1,18 @@
 import React from "react";
 import "./style.css"
-import UserDetails from "../user-details";
 import homeimg from "../../assets/images/home.jpg"
+import UserDetails from "./user-details";
+import Globalcomponent from "../../components/globalcomponent";
+import globalData from "../../components/globalcomponent/global";
 
 class Home extends React.Component {
     
     render() {
+        const homeData = globalData[0]
+
         return <div className="homecontainer">
             <div className="home-text">
-                <h3>Welcome to Simple House</h3>
-                <p>Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+                <Globalcomponent gname={homeData.gname} gtext={homeData.gtext} />
             </div>
             <div className="links">
                 <button className="link-style">Pizza</button>

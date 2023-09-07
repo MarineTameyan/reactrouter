@@ -11,21 +11,28 @@
     padding: 0 15px;
 }
 
-.headerimg{
-    position: relative;
+.headerdetails{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    height: 700px;
+    width: 1500px;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    justify-content: space-between;
+    background-image: url("../../assets/images/header.jpg");
 }
 
-.headerimg .imglogo{
-    width: 1500px;
-    height: 700px;
+.link{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 
 ul {
-    position: absolute;
     display: flex;
-    justify-content: flex-end;
-    left: 80%;
-    top: 90%;
     gap: 15px;
 }
 
@@ -47,12 +54,6 @@ ul li a:hover{
     text-decoration: underline;
 }
 
-.texts{
-    position: absolute;
-    right: 70%;
-    top: 80%;
-}
-
 .texts p{
     font-size: 35px;
     color: white;
@@ -63,21 +64,28 @@ ul li a:hover{
     color:white;
 }
 
+.square{
+    display: flex;
+    margin-left: 15px;
+    gap: 5px;
+}
+
 .square .first{
-    position: absolute;
-    right: 90%;
-    top: 80%;
     height: 70px;
     width: 70px;
     background-color: white;
 }
 
 .square .second{
-    position: absolute;
-    right: 89%;
-    top: 85%;
     height: 70px;
     width: 70px;
     border: 1px solid white;
-    
+    margin-left: -30px;
+    margin-top: 15px;
+}
+
+.items{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
 }

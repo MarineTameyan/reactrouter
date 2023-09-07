@@ -1,0 +1,46 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 1500px;
+  }
+  
+  .user-info {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    
+  }
+  
+  .user img {
+    width: 200px;
+  }
+  
+  .userstext {
+    width: 500px;
+  }
+  
+  .userstext h4 {
+    font-size: 30px;
+    color: lightseagreen;
+  }
+  
+  .userstext h5 {
+    font-size: 25px;
+    color: violet;
+    margin-top: 5px;
+  }
+  
+  .userstext p {
+    font-size: 20px;
+    color: grey;
+    margin-top: 5px;
+  }
+  
+  .userstext .logo img {
+    height: 25px;
+    width: 25px;
+  }
+  

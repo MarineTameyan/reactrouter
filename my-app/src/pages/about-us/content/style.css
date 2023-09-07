@@ -1,0 +1,51 @@
+.content{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.content-data{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+
+.content-data img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.content-data span{
+    text-align: center;
+    padding: 30px;
+    width: 350px;
+    font-size: 20px;
+    color: grey;
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.content-data button{
+    background-color: mediumseagreen;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+.content-data button:hover{
+    background-color:darkgreen;
+}

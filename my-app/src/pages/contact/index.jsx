@@ -6,17 +6,19 @@ import logofacebook from "../../assets/images/facebook.png"
 import logotwitter from  "../../assets/images/twitter.png"
 import logoinsta from "../../assets/images/instagram.png"
 import AccordionComponent from "./accordion";
+import Globalcomponent from "../../components/globalcomponent";
+import globalData from "../../components/globalcomponent/global";
 
 class Contact extends React.Component {
     
     render() {
-        
+        const contactData = globalData[2]
+
         return (
             
             <div className="contactcontainer">
                 <div className="contact-text">
-                    <h3>Contact Page</h3>
-                    <p>You may use Simple Contact Form to send email to your inbox. You can modify and use this template for your website. Header image has a parallax effect. Total 3 HTML pages included in this template.</p>
+                    <Globalcomponent gname={contactData.gname} gtext={contactData.gtext}/>
                 </div>
                 <div className="info">
                     <div className="forms">
